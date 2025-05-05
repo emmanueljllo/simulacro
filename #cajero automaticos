@@ -1,0 +1,40 @@
+#cajero automatico 
+
+CAJERO = []
+
+SALDO = input("ver el saldo actual de la cuenta")
+RETIROS = input("realizar retiros de la cuenta")
+TRASFERENCIAS = input ("enviar dinero a otra cuenta")
+MOVIMIENTOS = input("revisar historial de movimientos de la cuenta")
+SALIR = input("cerrar sesion del cajero")
+
+CAJERO = {
+    "SALDO": SALDO,
+    "RETIROS": RETIROS,
+    "TRASFERENCIAS": TRASFERENCIAS,
+    "MOVIMIENTOS": MOVIMIENTOS,
+    "SALIR": SALIR,
+}
+SALDO = 10.000
+print("su saldo actual es de 10.000")
+
+RETIROS 
+print(input("cuanto deseas retirar "))
+input("1.000, 5.000, 10.000, 20.000, 50.000, 100.000") 
+
+TRASFERENCIAS 
+print(input("ingresa el numero de la cuenta que deseas enviar el dinero")
+      ("ingresa la cantidad que deseas trasferir"))
+
+MOVIMIENTOS
+print(input("deseas revisar tus ultimas transaciones")
+      ("del dia, hace una semana, ver todo el historial"))
+
+SALIR 
+print(input("cerrar sesion en el cajero ")
+      ("borrar todo lo que hizo el cliente desde el cajero"))
+
+
+
+
+
